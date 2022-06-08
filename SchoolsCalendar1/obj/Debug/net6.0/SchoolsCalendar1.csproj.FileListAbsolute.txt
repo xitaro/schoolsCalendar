@@ -1,0 +1,76 @@
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\appsettings.json
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.exe
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.deps.json
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.runtimeconfig.json
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.pdb
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.csproj.AssemblyReference.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.AssemblyInfoInputs.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.AssemblyInfo.cs
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.csproj.CoreCompileInputs.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\scopedcss\bundle\SchoolsCalendar1.styles.css
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.csproj.CopyComplete
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\refint\SchoolsCalendar1.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.pdb
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.genruntimeconfig.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\obj\Debug\net6.0\ref\SchoolsCalendar1.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1\SchoolsCalendar1\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.csproj.AssemblyReference.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.AssemblyInfoInputs.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.AssemblyInfo.cs
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.csproj.CoreCompileInputs.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\refint\SchoolsCalendar1.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.pdb
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\appsettings.json
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.exe
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.deps.json
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.runtimeconfig.json
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\SchoolsCalendar1.pdb
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\scopedcss\bundle\SchoolsCalendar1.styles.css
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.csproj.CopyComplete
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\SchoolsCalendar1.genruntimeconfig.cache
+C:\Users\Marco\source\repos\SchoolsCalendar1 - Copia\SchoolsCalendar1\obj\Debug\net6.0\ref\SchoolsCalendar1.dll
