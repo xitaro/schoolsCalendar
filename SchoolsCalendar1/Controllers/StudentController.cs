@@ -22,6 +22,7 @@ namespace SchoolsCalendar.Controllers
         [HttpGet]
         public IEnumerable<Student> GetAll()
         {
+     
             return _context.Students;
         }
 

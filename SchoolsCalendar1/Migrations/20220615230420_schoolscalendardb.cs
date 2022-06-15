@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SchoolsCalendar1.Migrations
 {
-    public partial class schoolscalendar : Migration
+    public partial class schoolscalendardb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

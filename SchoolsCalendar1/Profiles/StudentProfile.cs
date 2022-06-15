@@ -11,6 +11,7 @@ namespace SchoolsCalendar1.Profiles
             CreateMap<CreateStudentDto, Student>();
             CreateMap<UpdateStudentDto, Student>();
             CreateMap<Student, ReadStudentDto>();
+
         }
     }
 }
