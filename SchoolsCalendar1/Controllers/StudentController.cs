@@ -72,7 +72,7 @@ namespace SchoolsCalendar.Controllers
             Student student = _context.Students.FirstOrDefault(student => student.Id == id);
             if (student == null)
             {
-                NotFound();
+                return NotFound();
             }
             _context.Remove(student);
             _context.SaveChanges();

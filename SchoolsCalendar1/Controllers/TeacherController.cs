@@ -75,7 +75,7 @@ namespace SchoolsCalendar.Controllers
 
             if (teacher == null)
             {
-                NotFound();
+                return NotFound();
             }
             _context.Remove(teacher);
             _context.SaveChanges();

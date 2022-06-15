@@ -10,8 +10,8 @@ using SchoolsCalendar1.Data;
 namespace SchoolsCalendar1.Migrations
 {
     [DbContext(typeof(SchoolsCalendarContext))]
-    [Migration("20220608230738_schoolsCalendar")]
-    partial class schoolsCalendar
+    [Migration("20220609010821_schoolscalendar")]
+    partial class schoolscalendar
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
