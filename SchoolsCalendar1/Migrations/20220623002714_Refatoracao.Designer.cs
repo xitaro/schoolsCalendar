@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SchoolsCalendar1.Data;
 
@@ -10,9 +11,10 @@ using SchoolsCalendar1.Data;
 namespace SchoolsCalendar1.Migrations
 {
     [DbContext(typeof(SchoolsCalendarContext))]
-    partial class SchoolsCalendarContextModelSnapshot : ModelSnapshot
+    [Migration("20220623002714_Refatoracao")]
+    partial class Refatoracao
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

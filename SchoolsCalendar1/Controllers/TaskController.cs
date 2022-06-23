@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolsCalendar1.Data;
-using SchoolsCalendar1.Data.Dtos.StudentDtos;
-using SchoolsCalendar1.Models;
+using SchoolsCalendar1.Data.Dtos.TaskDtos;
 
 namespace SchoolsCalendar1.Controllers
 {
@@ -54,7 +52,7 @@ namespace SchoolsCalendar1.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] CreateTaskDto dto)
+        public IActionResult Update(int id, [FromBody] UpdateTaskDto dto)
         {
             Models.Task task = _context.Tasks.FirstOrDefault(task => task.Id == id);
 

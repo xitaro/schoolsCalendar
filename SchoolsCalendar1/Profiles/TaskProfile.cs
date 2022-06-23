@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
-using SchoolsCalendar1.Data.Dtos.StudentDtos;
-using SchoolsCalendar1.Models;
+using SchoolsCalendar1.Data.Dtos.TaskDtos;
 
 namespace SchoolsCalendar1.Profiles
 {
@@ -9,12 +8,10 @@ namespace SchoolsCalendar1.Profiles
         public TaskProfile()
         {
             CreateMap<CreateTaskDto, Models.Task>();
-            CreateMap<Models.Task, CreateTaskDto>();
-
-            CreateMap<Models.Task, ReadTaskDto>();
-            CreateMap<ReadTaskDto, Models.Task>();
-
+            CreateMap<UpdateTaskDto, Models.Task>();
+            CreateMap<Models.Task, ReadTaskDto>();        
+            
         }
-           
+
     }
 }
