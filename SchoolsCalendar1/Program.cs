@@ -11,6 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//var connectionString = builder.Configuration.GetConnectionString("EventConnection");
+
+//builder.Services.AddDbContext<EventContext>(x => x.UseMySQL(connectionString));
 builder.Services.AddDbContext<SchoolsCalendarContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("SchoolsCalendarConnection"), new MySqlServerVersion(new Version(8, 0, 22))));
 
@@ -19,14 +22,7 @@ builder.Services.AddScoped<IStudentService, StudentService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(
-        policy =>
-        {
-            policy.WithOrigins("https://schoolscalendar-heroku.herokuapp.com");
-        });
-});
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -37,12 +33,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(/*c =>
+app.UseCors(c =>
 {
     c.AllowAnyHeader();
     c.AllowAnyMethod();
     c.AllowAnyOrigin();
-}*/);
+});
 
 app.UseHttpsRedirection();
 
