@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SchoolsCalendar1.Data;
 using SchoolsCalendar1.Data.Dtos.StudentDtos;
 using SchoolsCalendar1.Models;
+using SchoolsCalendar1.Services;
 
 namespace SchoolsCalendar.Controllers
 {
@@ -10,73 +11,78 @@ namespace SchoolsCalendar.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private SchoolsCalendarContext _context;
-        private readonly IMapper _mapper;
+        //private SchoolsCalendarContext _context;
+        // private readonly IMapper _mapper;
+        private IStudentService _studentService;
 
-        public StudentController(SchoolsCalendarContext context, IMapper mapper)
+        public StudentController(/*SchoolsCalendarContext context, IMapper mapper*/ IStudentService studentService)
         {
-            _context = context;
-            _mapper = mapper;
+            //_context = context;
+            //_mapper = mapper;
+            _studentService = studentService;
         }
+
 
         [HttpGet]
         public IEnumerable<Student> GetAll()
         {
-     
-            return _context.Students;
+            return _studentService.GetAll();
         }
+
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            // Retorna da lista de eventos o primeiro elemento que encontrar, onde o elemento é um Evento, e seu Id tem que ser igual ao passado pelo parâmetro
-            Student student = _context.Students.FirstOrDefault(student => student.Id == id);
+            /*// Retorna da lista de eventos o primeiro elemento que encontrar, onde o elemento é um Evento, e seu Id tem que ser igual ao passado pelo parâmetro
+            Student Student = _context.Students.FirstOrDefault(Student => Student.Id == id);
+
+            if (Student != null)
+            {
+                ReadStudentDto StudentDto = _mapper.Map<ReadStudentDto>(Student);
+                return Ok(Student);
+            }*/
+
+            ReadStudentDto student = _studentService.GetById(id);
 
             if (student != null)
             {
-                ReadStudentDto studentDto = _mapper.Map<ReadStudentDto>(student);
-                return Ok(studentDto);
+                return Ok(student);
             }
             return NotFound();
+
         }
 
         [HttpPost]
         public IActionResult Create([FromBody] CreateStudentDto studentDto)
         {
-            Student student = _mapper.Map<Student>(studentDto);
+            Student student = _studentService.Create(studentDto);
 
-            _context.Students.Add(student);
-            _context.SaveChanges();
+            if (student != null)
+                return Ok(student);
 
-            return Ok(student);
+            return BadRequest();
         }
 
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] UpdateStudentDto studentDto)
         {
-            Student student = _context.Students.FirstOrDefault(student => student.Id == id);
+            Student student = _studentService.Update(id, studentDto);
 
-            if(student == null)
-            {
+            if (student == null)
                 NotFound();
-            }
 
-            _mapper.Map(studentDto, student);
 
-            _context.SaveChanges();
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Student student = _context.Students.FirstOrDefault(student => student.Id == id);
+            Student student = _studentService.Delete(id);
+
             if (student == null)
-            {
-                return NotFound();
-            }
-            _context.Remove(student);
-            _context.SaveChanges();
+                NotFound();
+
             return NoContent();
         }
     }

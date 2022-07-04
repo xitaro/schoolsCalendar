@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SchoolsCalendar1.Data;
 using SchoolsCalendar1.Data.Dtos.TeacherDtos;
 using SchoolsCalendar1.Models;
+using SchoolsCalendar1.Services;
 
 namespace SchoolsCalendar.Controllers
 {
@@ -10,75 +11,78 @@ namespace SchoolsCalendar.Controllers
     [ApiController]
     public class TeacherController : ControllerBase
     {
-        private SchoolsCalendarContext _context;
-        private readonly IMapper _mapper;
+        //private SchoolsCalendarContext _context;
+        // private readonly IMapper _mapper;
+        private ITeacherService _teacherService;
 
-        public TeacherController(SchoolsCalendarContext context, IMapper mapper)
+        public TeacherController(/*SchoolsCalendarContext context, IMapper mapper*/ ITeacherService teacherService)
         {
-            _context = context;
-            _mapper = mapper;
+            //_context = context;
+            //_mapper = mapper;
+            _teacherService = teacherService;
         }
 
 
         [HttpGet]
         public IEnumerable<Teacher> GetAll()
         {
-            return _context.Teachers;
+            return _teacherService.GetAll();
         }
 
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            // Retorna da lista de eventos o primeiro elemento que encontrar, onde o elemento é um Evento, e seu Id tem que ser igual ao passado pelo parâmetro
+            /*// Retorna da lista de eventos o primeiro elemento que encontrar, onde o elemento é um Evento, e seu Id tem que ser igual ao passado pelo parâmetro
             Teacher teacher = _context.Teachers.FirstOrDefault(teacher => teacher.Id == id);
 
             if (teacher != null)
             {
                 ReadTeacherDto teacherDto = _mapper.Map<ReadTeacherDto>(teacher);
                 return Ok(teacher);
+            }*/
+
+            ReadTeacherDto teacher = _teacherService.GetById(id);
+
+            if (teacher != null)
+            {
+                return Ok(teacher);
             }
             return NotFound();
+
         }
 
         [HttpPost]
         public IActionResult Create([FromBody] CreateTeacherDto teacherDto)
         {
-            Teacher teacher = _mapper.Map<Teacher>(teacherDto);
+            Teacher teacher = _teacherService.Create(teacherDto);   
 
-            _context.Teachers.Add(teacher);
-            _context.SaveChanges();
+            if(teacher !=null)
+                return Ok(teacher);
 
-            return Ok(teacher);
+            return BadRequest();
         }
 
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] UpdateTeacherDto teacherDto)
         {
-            Teacher teacher = _context.Teachers.FirstOrDefault(teacher => teacher.Id == id);
+            Teacher teacher = _teacherService.Update(id, teacherDto);
 
             if(teacher == null)
-            {
                 NotFound();
-            }
+            
 
-            _mapper.Map(teacherDto, teacher);
-
-            _context.SaveChanges();
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Teacher teacher = _context.Teachers.FirstOrDefault(teacher => teacher.Id == id);
+            Teacher teacher = _teacherService.Delete(id);
 
             if (teacher == null)
-            {
-                return NotFound();
-            }
-            _context.Remove(teacher);
-            _context.SaveChanges();
+                NotFound();
+           
             return NoContent();
         }
     }

@@ -1,5 +1,6 @@
 using SchoolsCalendar1.Data;
 using Microsoft.EntityFrameworkCore;
+using SchoolsCalendar1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,9 @@ builder.Services.AddSwaggerGen();
 //builder.Services.AddDbContext<EventContext>(x => x.UseMySQL(connectionString));
 builder.Services.AddDbContext<SchoolsCalendarContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("SchoolsCalendarConnection"), new MySqlServerVersion(new Version(8, 0, 22))));
+
+builder.Services.AddScoped<ITeacherService, TeacherService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
